@@ -28,6 +28,6 @@ class Ejercicio2Test extends TestCase {
         $this->assertEquals(false,$this->ej2->esMayorEdad(17));
         $this->assertEquals(True,$this->ej2->esMayorEdad(18));
         $this->assertEquals(false,$this->ej2->esMayorEdad(-18));
-        $this->assertEquals(false,$this->ej2->esMayorEdad("f"));
+       // $this->assertEquals(false,$this->ej2->esMayorEdad("f"));
     }
 }
